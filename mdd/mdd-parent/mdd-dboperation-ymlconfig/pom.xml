@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.yuansong.study.mdd</groupId>
+    <artifactId>mdd-parent</artifactId>
+    <version>${appversion}</version>
+  </parent>
+  <artifactId>mdd-dboperation-ymlconfig</artifactId>
+  <packaging>jar</packaging>
+  
+  <dependencies>
+    <!-- SpringBoot Begin -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+        <version>${springversion}</version>
+    </dependency>
+    <!-- SpringBoot End -->
+    <!-- MSSQL Begin -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-jdbc</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>com.microsoft</groupId>
+        <artifactId>sqljdbc4</artifactId>
+        <version>3.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid-spring-boot-starter</artifactId>
+    </dependency>
+    <!-- MSSQL End -->
+    <!-- 自定义 Begin -->
+    <dependency>
+       <groupId>com.yuansong.tools</groupId>
+       <artifactId>yuansong-jtools-common</artifactId>
+    </dependency>
+    <!-- 自定义 End -->
+    <!-- Model Begin -->
+    <dependency>
+        <groupId>com.yuansong.study.mdd</groupId>
+        <artifactId>mdd-common-config</artifactId>
+        <version>${appversion}</version>
+    </dependency>
+    <!-- Model End -->
+  </dependencies>
+</project>

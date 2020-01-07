@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "proj",
+    "type": "com.yuansong.study.mdd.common.config.ProjectConfig",
+    "description": "A description for 'proj'"
+  },
+  {
+    "name": "swagger",
+    "type": "com.yuansong.study.mdd.common.config.SwaggerConfig",
+    "description": "A description for 'swagger'"
+  },
+  {
+    "name": "datasource.default",
+    "type": "com.yuansong.study.mdd.common.config.DataSourceConfigAbstract",
+    "description": "A description for 'datasource.default'"
+  },
+  {
+    "name": "datasource.first",
+    "type": "com.yuansong.study.mdd.common.config.DataSourceConfigAbstract",
+    "description": "A description for 'datasource.default'"
+  },
+  {
+    "name": "datasource.second",
+    "type": "com.yuansong.study.mdd.common.config.DataSourceConfigAbstract",
+    "description": "A description for 'datasource.default'"
+  }
+]}
